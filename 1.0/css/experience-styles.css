@@ -1,0 +1,66 @@
+/* ==========================
+    Basic Selectors
+   ========================== */
+section { margin: 0; }
+
+/* ==========================
+    ID/Class Selectors
+   ========================== */
+/* Containers */
+.container { display: flex; }
+
+/* Timelines */
+.timeline {
+    margin: 0 100px 0 0;
+    border-left: 5px solid rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    height: 100%;
+}
+
+/* Timeline Pins */
+.pin {
+    width: max-content;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid rgb(26, 26, 26);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.pin:hover, .active {
+    background: rgb(233, 233, 233);
+    color: rgb(26, 26, 26);
+}
+
+/* Events */
+.events { width: 100%; }
+
+.event {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-left: 5px solid rgb(233, 233, 233);
+}
+
+/* ==========================
+    RWD
+   ========================== */
+@media screen and (max-width: 640px) {
+    .container { display: block; }
+
+    .timeline { margin: 0 0 50px 0; }
+
+    .pin {
+        box-sizing: border-box;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        border: none;
+    }
+}

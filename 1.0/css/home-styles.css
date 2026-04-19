@@ -1,0 +1,145 @@
+/* ==========================
+    ID/Class Selectors
+   ========================== */
+/* Banner */
+#banner {
+    position: relative;
+    background: linear-gradient(to right, rgba(3, 11, 71, 0.7) 0%, rgba(0,0,0,0) 50%, rgba(82, 47, 4, 0.7) 100%);
+}
+
+#banner div {
+    padding: 300px 100px;
+    width: 40%;
+}
+
+/* Banner Headings */
+#banner div {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/* Skills */
+#skill-sets div { margin: 50px 0; }
+
+#skill-sets h2, #works h2 {
+    width: max-content;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+#skill-sets ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#skill-sets ul li {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+/* Projects */
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+
+    gap: 20px;
+
+    list-style: none;
+    padding: 0;
+}
+
+#projects>li {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid rgb(233, 233, 233);
+    padding: 20px;
+}
+
+#projects img { width: 100%; }
+
+/* Project Keywords */
+#projects .keywords { padding: 0; }
+
+#projects .keywords li {
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    margin: 10px 10px 10px 0;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+/* ==========================
+    Basic Selectors
+   ========================== */
+/* Banner Video Background */
+video {
+    object-fit: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Buttons */
+main a:link, main a:visited {
+    display: block;
+    width: max-content;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 0 10px auto;
+    color: rgb(26, 26, 26);
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+main a:hover { background-color: rgb(255, 225, 178); }
+
+main a:active { background-color: rgb(178, 204, 255); }
+
+/* ==========================
+    RWD
+   ========================== */
+@media screen and (max-width: 1600px) {
+    #banner div {
+        font-size: 1.2em;
+        padding: 200px 100px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    #projects { grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
+}
+
+@media screen and (max-width: 1200px) {
+    #banner div { padding: 100px; }
+}
+
+@media screen and (max-width: 900px) {
+    #banner div { padding: 50px 100px; }
+
+    #projects { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+}
+
+@media screen and (max-width: 768px) {
+    #skill-sets div { margin: 25px 0; }
+
+    #skill-sets ul { padding: 0; }
+
+    #skill-sets ul li, #projects .keywords li {
+        padding: 5px 10px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section#banner, video { position: static; }
+
+    #banner div {
+        width: auto;
+        padding: 50px 20px;
+    }
+}

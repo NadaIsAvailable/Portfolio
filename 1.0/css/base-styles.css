@@ -1,0 +1,38 @@
+/* ==========================
+    Basic Selectors
+   ========================== */
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: "Poppins", serif;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
+    line-height: 1.5em;
+    background-color: rgb(26, 26, 26);
+    color: rgb(233, 233, 233);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Libre Baskerville", serif;
+    text-transform: capitalize;
+    line-height: 1.5em;
+}
+
+section { margin: 100px auto; }
+
+/* ==========================
+    RWD
+   ========================== */
+@media screen and (max-width: 768px) {
+    section { margin: 50px auto; }
+}
+
+@media screen and (max-width: 425px) {
+    body { font-size: 0.6rem; }
+}

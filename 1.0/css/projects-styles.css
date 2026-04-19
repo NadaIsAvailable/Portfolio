@@ -1,0 +1,151 @@
+/* ==========================
+    Basic Selectors
+   ========================== */
+main h1 { font-size: 2em; } 
+
+footer { margin-top: 100px; }
+
+/* ==========================
+    ID/Class Selectors
+   ========================== */
+.hidden { display: none; }
+
+/* Keywords */
+.keyword { position: relative; }
+  
+.keyword input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+}
+  
+.keyword span {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    color: rgb(233, 233, 233);
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.keyword input[type="checkbox"]:checked + span, .active {
+    background-color: rgb(255, 225, 178);
+    color: rgb(26, 26, 26);
+}
+
+/* Projects */
+#project-list, #project-template { margin: 0 auto; }
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 30px;
+}
+
+.project {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    border: 3px solid rgb(233, 233, 233);
+}
+
+.project:hover {
+    box-shadow: 0px 0px 20px 0px rgba(232,231,218,1);
+    cursor: pointer;
+}
+
+.project img { width: 100%; }
+
+/* Project Keywords */
+.keywords { padding: 0; }
+
+.keywords li {
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    margin: 10px 10px 10px 0;
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+/* Buttons */
+.button, .button:link, .button:visited {
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    
+    width: max-content;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+}
+
+a.button, a.button:link, a.button:visited { display: block; }
+
+.button:hover, #prev-image:hover, #next-image:hover {
+    background-color: rgb(255, 225, 178);
+    cursor: pointer;
+}
+
+.button:active, #prev-image:active, #next-image:active { background-color: rgb(178, 204, 255); }
+
+#prev-image, #next-image { margin: 10px 5px; }
+
+/* Project Images */
+.image-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: rgb(100, 100, 100);
+}
+
+#project-image { margin-inline: auto; }
+
+/* Others */
+.open-in-another-tab {
+    margin-inline-start: 1em;
+    font-size: 0.8em;
+    color: rgb(233, 233, 233);
+}
+
+.open-in-another-tab:hover { color: wheat; }
+
+.open-in-another-tab:active { color: #f5cbcc; }
+
+/* ==========================
+    RWD
+   ========================== */
+@media screen and (max-width: 1550px) {
+    .projects { grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
+}
+
+@media screen and (max-width: 900px) {
+    .projects { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+
+    .image-gallery {
+        display: block;
+        position: relative;
+        background-color: transparent;
+    }
+
+    #prev-image, #next-image {
+        position: absolute;
+        top: 45%;
+        background-color: rgba(245, 245, 245, 0.5);
+    }
+
+    #next-image { right: 0; }
+
+    #project-image { width: 100%; }
+}
+
+@media screen and (max-width: 768px) {
+    .keyword span , .keywords li {
+        padding: 5px 10px;
+        margin: 5px;
+    }
+
+    footer { margin-top: 50px; }
+}

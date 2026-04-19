@@ -1,0 +1,53 @@
+/* ==========================
+    Basic Selectors
+   ========================== */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(37, 37, 37);
+}  
+
+/* Navigation Bar */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li { margin: 0 10px; }
+
+header a:link, header a:visited {
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+header a:hover { color: rgb(255, 225, 178); }
+
+header a:active { color: rgb(178, 204, 255); }
+
+/* ==========================
+    ID/Class Selectors
+   ========================== */
+header a.current { text-decoration: underline; }
+
+/* ==========================
+    Key Frames
+   ========================== */
+@keyframes roundCorners {
+    from { border-radius: 0; }
+    to { border-radius: 15px; }
+}
+
+/* ==========================
+    RWD
+   ========================== */
+@media screen and (max-width: 425px) {
+    header nav { margin: 0 10px; }
+}

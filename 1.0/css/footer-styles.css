@@ -1,0 +1,14 @@
+/* ==========================
+    Basic Selectors
+   ========================== */
+/* Footer */
+footer {
+    padding: 50px;
+    background-color: rgb(49, 49, 49);
+}
+
+footer div { text-align: center; }
+
+/* ==========================
+    RWD
+   ========================== */

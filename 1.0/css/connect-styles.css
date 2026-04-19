@@ -1,0 +1,29 @@
+/* ==========================
+    Basic Selectors
+   ========================== */
+main a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 25px;
+
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    font-weight: bold;
+}
+
+main a:hover { color: rgb(255, 225, 178); }
+
+img { will-change: filter; }
+
+img:hover { filter: drop-shadow(0 0 20px wheat); }
+
+main a:active { color: rgb(178, 204, 255); }
+
+footer { margin-top: 100px; }
+
+/* ==========================
+    ID/Class Selectors
+   ========================== */
+/* Contact */
+.contact { padding: 20px 0; }
