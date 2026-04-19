@@ -1,0 +1,34 @@
+.project-card {
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    padding: 0;
+    text-align: left;
+    border: none;
+    font-weight: normal;
+}
+
+.project-card-spacer {
+    width: 100%;
+    height: 150px;
+}
+
+.project-card-content {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 30%);
+    border-radius: 0 0 30px 30px;
+    padding: 20px;
+}
+
+.project-card h3, .project-card p, .project-card a {
+    color: white;
+}
+
+.project-card h3 {
+    margin-bottom: 0;
+}
+
+.project-card:hover {
+    box-shadow: 0px 0px 15px 5px #FFCE7B;
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}

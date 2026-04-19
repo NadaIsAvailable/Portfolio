@@ -1,0 +1,227 @@
+[
+  {
+    "Keyword": "C#",
+    "ID": "cs",
+    "Category": "Programming Language"
+  },
+  {
+    "Keyword": "C++",
+    "ID": "cpp",
+    "Category": "Programming Language"
+  },
+  {
+    "Keyword": "Java",
+    "ID": "java",
+    "Category": "Programming Language"
+  },
+  {
+    "Keyword": "HTML",
+    "ID": "html",
+    "Category": "Programming Language"
+  },
+  {
+    "Keyword": "CSS",
+    "ID": "css",
+    "Category": "Programming Language"
+  },
+  {
+    "Keyword": "JavaScript",
+    "ID": "js",
+    "Category": "Programming Language"
+  },
+  {
+    "Keyword": "PHP",
+    "ID": "php",
+    "Category": "Programming Language"
+  },
+  {
+    "Keyword": "SQL",
+    "ID": "sql",
+    "Category": "Programming Language"
+  },
+  {
+    "Keyword": "Dart",
+    "ID": "dart",
+    "Category": "Programming Language"
+  },
+  {
+    "Keyword": "OpenGL",
+    "ID": "opengl",
+    "Category": "Graphics APIs / Rendering"
+  },
+  {
+    "Keyword": "WebGL",
+    "ID": "webgl",
+    "Category": "Graphics APIs / Rendering"
+  },
+  {
+    "Keyword": "PixiJS",
+    "ID": "pixijs",
+    "Category": "Graphics APIs / Rendering"
+  },
+  {
+    "Keyword": "DirectX 11",
+    "ID": "directx11",
+    "Category": "Graphics APIs / Rendering"
+  },
+  {
+    "Keyword": "MonoGame",
+    "ID": "monogame",
+    "Category": "Frameworks & Libraries"
+  },
+  {
+    "Keyword": "Box2D",
+    "ID": "box2d",
+    "Category": "Frameworks & Libraries"
+  },
+  {
+    "Keyword": "SFML",
+    "ID": "sfml",
+    "Category": "Frameworks & Libraries"
+  },
+  {
+    "Keyword": "React",
+    "ID": "react",
+    "Category": "Frameworks & Libraries"
+  },
+  {
+    "Keyword": "jQuery",
+    "ID": "jquery",
+    "Category": "Frameworks & Libraries"
+  },
+  {
+    "Keyword": "ASP.NET MVC",
+    "ID": "asp",
+    "Category": "Frameworks & Libraries"
+  },
+  {
+    "Keyword": "Flutter",
+    "ID": "flutter",
+    "Category": "Frameworks & Libraries"
+  },
+  {
+    "Keyword": "Flame",
+    "ID": "flame",
+    "Category": "Frameworks & Libraries"
+  },
+  {
+    "Keyword": "Unity",
+    "ID": "unity",
+    "Category": "Game Engines"
+  },
+  {
+    "Keyword": "Git",
+    "ID": "git",
+    "Category": "Tools & IDEs"
+  },
+  {
+    "Keyword": "GitHub",
+    "ID": "github",
+    "Category": "Tools & IDEs"
+  },
+  {
+    "Keyword": "Figma",
+    "ID": "figma",
+    "Category": "Tools & IDEs"
+  },
+  {
+    "Keyword": "Trello",
+    "ID": "trello",
+    "Category": "Tools & IDEs"
+  },
+  {
+    "Keyword": "NPM",
+    "ID": "npm",
+    "Category": "Tools & IDEs"
+  },
+  {
+    "Keyword": "Maya",
+    "ID": "maya",
+    "Category": "Tools & IDEs"
+  },
+  {
+    "Keyword": "Visual Studio",
+    "ID": "vs",
+    "Category": "Tools & IDEs"
+  },
+  {
+    "Keyword": "VS Code",
+    "ID": "vscode",
+    "Category": "Tools & IDEs"
+  },
+  {
+    "Keyword": "FlutterFlow",
+    "ID": "ff",
+    "Category": "Tools & IDEs"
+  },
+  {
+    "Keyword": "Application",
+    "ID": "app",
+    "Category": "Project Types"
+  },
+  {
+    "Keyword": "Board Game",
+    "ID": "boardgame",
+    "Category": "Project Types"
+  },
+  {
+    "Keyword": "Web Game",
+    "ID": "webgame",
+    "Category": "Project Types"
+  },
+  {
+    "Keyword": "PC Game",
+    "ID": "pc",
+    "Category": "Project Types"
+  },
+  {
+    "Keyword": "Simulation",
+    "ID": "sim",
+    "Category": "Project Types"
+  },
+  {
+    "Keyword": "Website",
+    "ID": "web",
+    "Category": "Project Types"
+  },
+  {
+    "Keyword": "Library",
+    "ID": "lib",
+    "Category": "Project Types"
+  },
+  {
+    "Keyword": "MVC App",
+    "ID": "mvc",
+    "Category": "Project Types"
+  },
+  {
+    "Keyword": "Mobile App",
+    "ID": "mobile",
+    "Category": "Project Types"
+  },
+  {
+    "Keyword": "Academic",
+    "ID": "academic",
+    "Category": "Project Context"
+  },
+  {
+    "Keyword": "Personal",
+    "ID": "personal",
+    "Category": "Project Context"
+  },
+  {
+    "Keyword": "Solo",
+    "ID": "solo",
+    "Category": "Project Context"
+  },
+  {
+    "Keyword": "Group",
+    "ID": "group",
+    "Category": "Project Context"
+  },
+  {
+    "Keyword": "Game Jam / Hackathon",
+    "ID": "jam",
+    "Category": "Project Context"
+  }
+]

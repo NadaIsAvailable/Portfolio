@@ -1,0 +1,87 @@
+main.projects>div {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 3%;
+    position: relative;
+}
+
+.filter {
+    position: sticky;
+    top: 30px;
+    width: 35%;
+    height: fit-content;
+    border-color: black;
+}
+
+.filter legend {
+    font-family: 'LeeeafHei', sans-serif;
+    font-size: 1.5rem;
+}
+
+.filter legend+p {
+    margin-bottom: 0;
+}
+
+.filter legend+p, #selected-keywords {
+    padding: 0 1.2em;
+}
+
+#selected-keywords {
+    margin-bottom: 1rem;
+}
+
+.filter-acc h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.filter-acc h2 button {
+    font-weight: normal;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0;
+}
+
+.fitler-acc .py-2 {
+    width: 90%;
+    margin: 0 auto 2rem;
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+}
+
+.filter-acc section {
+    width: 80%;
+    margin: auto;
+}
+
+.option-btn {
+    color: black;
+    background-color: white;
+    font-size: 0.75rem;
+    padding: 0.3em 0.8em;
+    margin: 7px 7px 0 0 ;
+    border-radius: 10px;
+}
+
+.option-btn:hover, .selected {
+    color: white;
+    background-color: black;
+}
+
+.selected:hover {
+    color: #ffa81b;
+    border-color: #ffa81b;
+    background-color: white;
+}
+
+.project-cards {
+    width: 60%;
+}

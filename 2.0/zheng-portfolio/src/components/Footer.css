@@ -1,0 +1,29 @@
+footer {
+    font-family: 'LeeeafHei', sans-serif;
+    background-color: black;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+footer h1{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+footer p {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+footer .footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 70px;
+}

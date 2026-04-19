@@ -1,0 +1,53 @@
+.connect {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+#connect-text {
+    width: 40%;
+}
+
+#connect-text h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#contact-icons a {
+    display: inline-block;
+    /* width: 30px;
+    height: 30px; */
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+#contact-icons a:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+#connect-form {
+    width: 30%;
+    margin-top: 145px;
+}
+
+#connect-form>div {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+}
+
+#connect-form button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}

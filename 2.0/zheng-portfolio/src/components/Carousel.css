@@ -1,0 +1,22 @@
+.carousel {
+    background-color: black;
+    height: 75vh;
+}
+
+.carousel-inner, .carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}

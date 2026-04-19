@@ -1,0 +1,113 @@
+h1, h2, h3, h4, h5, h6, .i-am {
+    text-transform: capitalize;
+}
+
+h1.home {
+    font-size: 2.25rem;
+    line-height: 1em;
+    margin: 0;
+}
+
+h2.home {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2.recents {
+    margin-bottom: 25px;
+}
+
+h3.home {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p.i-am {
+    font-family: 'LeeeafHei', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h1.home, p.i-am {
+    color: white;
+}
+
+.highlighted-text {
+    font-size: 4rem;
+    line-height: 1.35em;
+    display: block;
+}
+
+#hero {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-90deg, #ffffff 50%, #000000 100%);
+}
+
+#hero #intro-text {
+    width: 45%;
+    margin: 0 80px;
+}
+
+#hero #intro-img {
+    width: 55%;
+    height: 300px;
+}
+
+#hero #intro-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#hero #scroll-hint {
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 2s infinite;
+}
+
+#hero #scroll-hint:hover {
+    color: #ffa81b;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-15px);
+    }
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#description {
+    font-size: 2rem;
+    margin: 0 auto 100px;
+    text-align: justify;
+}
+
+#demo-video {
+    display: block;
+    margin: 100px auto;
+}
+
+.list-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 70px;
+}

@@ -1,0 +1,26 @@
+.icon {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    will-change: transform, filter;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease, filter 0.2s ease;
+    -webkit-filter: drop-shadow(0 0 20px rgba(255,162,0,0.9));
+    filter: drop-shadow(0 0 20px rgba(255,162,0,0.9));
+}
+
+.disabled-icon {
+    pointer-events: none;
+}
+
+.text-icon {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 20px;
+    margin-left: 0;
+}

@@ -1,0 +1,20 @@
+#cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+    background-color: white;
+    mix-blend-mode: difference;
+
+    position: fixed;
+    z-index: 9999;
+    pointer-events: none;
+
+    transition: width 0.2s ease;
+    transition: height 0.2s ease;
+}
+
+body:has(a:hover, button:hover, .button:hover, .icon:hover, .nav-item:hover, .pin:hover, input:hover, textarea:hover) #cursor {
+    width: 10px;
+    height: 10px;
+}
